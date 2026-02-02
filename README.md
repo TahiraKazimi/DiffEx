@@ -22,7 +22,7 @@ Use this only if you want to automatically extract high-level semantic categorie
 ```bash
 python parent_semantic_ext.py
 ```
-## 2. Expand Categories into Nested Taxonomy
+#### 2. Expand Categories into Nested Taxonomy
 
 Converts flat categories from first step output into nested, fine-grained semantic keywords.
 ```bash
@@ -33,7 +33,7 @@ python expand_categories.py \
 
 Output: nested taxonomy JSON (required by DiffEx).
 
-## 3. Run DiffEx
+#### 3. Run DiffEx
 
 Main script. Applies diffusion-based edits and measures classifier sensitivity.
 
