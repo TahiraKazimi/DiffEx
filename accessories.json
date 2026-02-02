@@ -1,0 +1,31 @@
+{
+  "domain": "people",
+  "categories": {"accessories":
+   {"hat": [
+        "fedora",
+        "beanie",
+        "baseball cap",
+        "beret",
+        "wide-brim",
+        "panama hat",
+        "bucket hat",
+        "trucker hat",
+        "visor",
+        "felt",
+        "straw",
+        "wool",
+        "cotton",
+        "patterned",
+        "solid color",
+        "logo",
+        "band",
+        "earflap hat",
+        "plaid",
+        "striped",
+        "embellished",
+        "leather trim",
+        "braided"
+      ]
+    }
+}
+}
