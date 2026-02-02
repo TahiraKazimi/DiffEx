@@ -27,8 +27,8 @@ python parent_semantic_ext.py
 Converts flat categories from first step output into nested, fine-grained semantic keywords.
 ```bash
 python expand_categories.py \
-  --in_json data_fashion.json \
-  --out_json people_nested.json
+  --in_json data_parent_semantic.json \
+  --out_json data_nested.json
 ```
 
 Output: nested taxonomy JSON (required by DiffEx).
@@ -38,7 +38,7 @@ Output: nested taxonomy JSON (required by DiffEx).
 Main script. Applies diffusion-based edits and measures classifier sensitivity.
 ```bash
 python diffex_run.py \
-  --taxonomy_json accessories.json \
+  --taxonomy_json data_nested.json \
   --image_path 0004.png \
   --out_json diffex_output.json \
   --clip_labels "male" "female" \
