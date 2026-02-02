@@ -36,12 +36,13 @@ Output: nested taxonomy JSON (required by DiffEx).
 #### 3. Run DiffEx
 
 Main script. Applies diffusion-based edits and measures classifier sensitivity.
-
+```bash
 python diffex_run.py \
   --taxonomy_json accessories.json \
   --image_path 0004.png \
   --out_json diffex_output.json \
   --clip_labels "male" "female" \
   --clip_target_index 1
+```
 
 
