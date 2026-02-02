@@ -6,8 +6,6 @@ This repository contains the code for DiffEx, a diffusion-based framework for ex
 
 ## Pipeline Overview
 
-Run the scripts **in order**:
----
 
 ## Minimal Dependency Setup:
 ```bash
@@ -15,8 +13,9 @@ pip install torch torchvision transformers diffusers pillow
 ```
 
 ---
+## Run the scripts **in order**:
 
-## 1. Extract Semantic Categories
+#### 1. Extract Semantic Categories
 
 Use this only if you want to automatically extract high-level semantic categories from images.
 
